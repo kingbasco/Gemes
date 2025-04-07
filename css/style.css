@@ -618,7 +618,7 @@ main {
 }
 .content__close {
 	position: absolute;
-	top: 70px;
+	top: 150px;
 	left: 40px;
 	overflow: hidden;
 	background-color: transparent;
@@ -1675,6 +1675,31 @@ ul.countdown li p {
 }
 
 
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+  }
+  
+  .register-link {
+	background-color: orange;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none; /* Remove underline */
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .register-link:hover {
+	background-color: #e68a00;
+  }
+  
 
 
 
